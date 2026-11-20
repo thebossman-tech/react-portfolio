@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ogundijo Olatunbosun — frontend developer in Ibadan, Nigeria. Explore responsive websites, React projects, and opportunities to collaborate."
+    />
+    <meta name="theme-color" content="#f5f5ef" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Olatunbosun Ogundijo — Frontend Developer</title>
+    <!-- Set the theme before React renders to avoid a bright flash on dark mode. -->
+    <script>
+      try {
+        const saved = localStorage.getItem("portfolio-theme");
+        document.documentElement.dataset.theme = ["light", "dark"].includes(
+          saved,
+        )
+          ? saved
+          : matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+  </head>
+  <body>
+    <noscript
+      >This React portfolio needs JavaScript. You can also contact Olatunbosun
+      at olatunbosun.olu10@gmail.com.</noscript
+    >
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

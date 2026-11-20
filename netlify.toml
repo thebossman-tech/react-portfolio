@@ -1,0 +1,8 @@
+# Serve the React application on direct visits to nested routes.
+[build]
+  command = "npm run build"
+  publish = "dist"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
