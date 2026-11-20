@@ -117,6 +117,12 @@ Official references:
 6. Put the repository link in **Submission URL** and the deployed website in **Live / Demo URL**.
 7. Add the real repository and demo links to this README after verification.
 
+## Verified Repository
+https://github.com/thebossman-tech/react-portfolio
+
+## Live URL
+https://react-portfolio-nine-phi-37.vercel.app/
+
 ## Author
 
 Ogundijo Olatunbosun · [GitHub](https://github.com/thebossman-tech)
