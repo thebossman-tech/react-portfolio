@@ -54,4 +54,39 @@ export const initialProjects = [
     approach:
       "Project previews, straightforward navigation, and clear ways to get in touch.",
   },
+  {
+    id: "Food-Website",
+    number: "04",
+    name: "Flavor House",
+    category: "Multi-page websites",
+    type: "Food Website · Personal project",
+    description:
+      "A very clean personal project to show skills in Node js, Express",
+    image: "/images/Flavor-House.png",
+    alt: "Screenshot of the Flavor House website",
+    tags: ["HTML", "CSS", "JavaScript", "Node js", "Express"],
+    live: "https://food-website-vzow.onrender.com/",
+    code: "https://github.com/thebossman-tech/Food-Website",
+    challenge: "A very good user interface with the color specially picked",
+    approach:
+      "accessible menu controls, reduced-motion support, I tend to handle projects with care and attention to detail",
+  },
+  {
+     id: "Smart Watch Store",
+    number: "05",
+    name: "TimeZone",
+    category: "Multi-page websites",
+    type: "Smart Watch Store · Personal project",
+    description:
+      "A modern smartwatch storefront designed to make browsing products simple and engaging. The project combines clear product displays, intuitive navigation, and a polished layout to showcase wearable technology and help shoppers explore their options.",
+    image: "/images/TimeZone.png",
+    alt: "Screenshot of the Smart Watch website",
+    tags: ["HTML", "CSS", "JavaScript", "Node js", "Express"],
+    live: "https://simple-website-lyart.vercel.app/",
+    code: "https://github.com/thebossman-tech/Simple-Website",
+    challenge: "Present smartwatch products clearly while balancing strong visuals, useful product information, and easy navigation across different screen sizes.",
+    approach:
+      "Organized products into consistent cards, established a clear visual hierarchy, and used responsive layouts to make browsing straightforward on mobile, tablet, and desktop."
+  }
+  
 ];
